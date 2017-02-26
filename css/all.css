@@ -402,13 +402,12 @@ table {
   border-spacing: 0; }
 
 body {
-  background-color: aubergine;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
-  font-size: 32px;
-  line-height: 1.4em; }
+  font-size: 28px;
+  line-height: 1.5em; }
 
 .wrapper {
-  margin: 5% 25% 5% 10%; }
+  margin: 10% 25% 5% 10%; }
 
 h1 {
   font-size: 1em;
@@ -417,5 +416,8 @@ h1 {
 
 p {
   margin-bottom: 30px; }
+
+img {
+  margin-bottom: 10%; }
 
 /*# sourceMappingURL=all.css.map */
