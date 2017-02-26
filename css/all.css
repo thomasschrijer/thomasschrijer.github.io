@@ -402,22 +402,28 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
-  font-size: 28px;
-  line-height: 1.5em; }
+  font-family: "lores-28", mono-spaced, serif;
+  font-size: 94px;
+  font-weight: 500;
+  line-height: 1em;
+  color: black;
+  background-color: #FFD3D3; }
 
 .wrapper {
-  margin: 10% 25% 5% 10%; }
+  margin: 10% 25% 10% 10%; }
 
 a {
   text-decoration: none; }
-
-h1 {
-  font-size: 1em;
-  font-weight: normal;
-  margin-bottom: 30px; }
+  a:hover {
+    background-color: white; }
+  a:active {
+    background-color: black;
+    color: white; }
+  a:visited {
+    text-decoration: line-through; }
 
 p {
+  line-height: 1em;
   margin-bottom: 30px; }
 
 img {
