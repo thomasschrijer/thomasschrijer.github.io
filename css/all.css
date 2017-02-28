@@ -402,28 +402,32 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: "lores-28", mono-spaced, serif;
-  font-size: 94px;
-  font-weight: 500;
-  line-height: 1em;
-  color: black;
-  background-color: #FFD3D3; }
+  font-family: "adelle-sans", sans-serif;
+  font-size: 52px;
+  line-height: 1.4em;
+  font-weight: 300;
+  color: #806EFF;
+  background-color: white; }
+  @media all and (max-width: 1000px) {
+    body {
+      font-size: 22px; } }
 
 .wrapper {
-  margin: 10% 25% 10% 10%; }
+  margin: 10% 20% 10% 10%; }
+  @media all and (max-width: 1000px) {
+    .wrapper {
+      margin: 14% 8%; } }
 
 a {
+  opacity: 1;
+  color: #442BF5;
   text-decoration: none; }
   a:hover {
-    background-color: white; }
+    text-decoration: underline; }
   a:active {
-    background-color: black;
-    color: white; }
-  a:visited {
-    text-decoration: line-through; }
+    color: pink; }
 
 p {
-  line-height: .9em;
   margin-bottom: 30px; }
 
 img {
