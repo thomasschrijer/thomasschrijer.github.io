@@ -402,18 +402,34 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: "adelle-sans", sans-serif;
-  font-size: 52px;
-  line-height: 1.4em;
-  font-weight: 300;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 28px;
+  line-height: 1.45em;
+  font-weight: 400;
   color: #806EFF;
   background-color: white; }
   @media all and (max-width: 1000px) {
     body {
       font-size: 22px; } }
 
+.intro {
+  height: 300px;
+  margin: 10% 30% 10% 10%; }
+  @media all and (max-width: 1000px) {
+    .intro {
+      height: 60px;
+      margin: 14% 8%; } }
+
+#typed {
+  font-size: 92px;
+  line-height: 1.1em;
+  font-weight: 800; }
+  @media all and (max-width: 1000px) {
+    #typed {
+      font-size: 32px; } }
+
 .wrapper {
-  margin: 10% 20% 10% 10%; }
+  margin: 10% 40% 10% 10%; }
   @media all and (max-width: 1000px) {
     .wrapper {
       margin: 14% 8%; } }
