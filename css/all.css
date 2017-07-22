@@ -430,7 +430,7 @@ body {
 
 .wrapper {
   z-index: 99;
-  margin: 0 50% 0 10%; }
+  margin: 0 50% 10% 10%; }
   @media all and (max-width: 1000px) {
     .wrapper {
       margin: 150px 8% 14%; } }
