@@ -424,11 +424,11 @@ body {
 
 .intro {
   height: 280px;
-  margin: 10% 40% 10% 10%; }
+  margin: 10% 30% 10% 10%; }
   @media all and (max-width: 1000px) {
     .intro {
-      height: 120px;
-      margin: 14% 8%; } }
+      height: 150px;
+      margin: 20% 8% 10%; } }
 
 #typed {
   font-size: 92px;
@@ -436,14 +436,14 @@ body {
   font-weight: 800; }
   @media all and (max-width: 1000px) {
     #typed {
-      font-size: 32px; } }
+      font-size: 40px; } }
 
 .wrapper {
   z-index: 99;
   margin: 0 50% 10% 10%; }
   @media all and (max-width: 1000px) {
     .wrapper {
-      margin: 150px 8% 14%; } }
+      margin: 10% 8%; } }
 
 a {
   opacity: 1;
@@ -465,5 +465,11 @@ img.no-ergonimics {
   bottom: 10%;
   right: 5%;
   width: 300px; }
+  @media all and (max-width: 1000px) {
+    img.no-ergonimics {
+      width: 40%;
+      top: 40px;
+      left: 8%;
+      position: relative; } }
 
 /*# sourceMappingURL=all.css.map */
