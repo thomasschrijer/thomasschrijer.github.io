@@ -401,12 +401,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+::selection {
+  background: #21409a;
+  /* WebKit/Blink Browsers */
+  color: white; }
+
+::-moz-selection {
+  background: #21409a;
+  /* Gecko Browsers */
+  color: white; }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 24px;
   line-height: 1.4em;
   font-weight: 400;
-  color: #806EFF;
+  color: #262262;
   background-color: white; }
   @media all and (max-width: 1000px) {
     body {
@@ -437,10 +447,9 @@ body {
 
 a {
   opacity: 1;
-  color: #442BF5;
-  text-decoration: none; }
+  text-decoration: underline; }
   a:hover {
-    text-decoration: underline; }
+    color: #da1c5c; }
   a:active {
     color: pink; }
 
@@ -453,8 +462,8 @@ ul {
 img.no-ergonimics {
   z-index: 1;
   position: fixed;
-  bottom: 0;
+  bottom: 10%;
   right: 5%;
-  width: 500px; }
+  width: 300px; }
 
 /*# sourceMappingURL=all.css.map */
