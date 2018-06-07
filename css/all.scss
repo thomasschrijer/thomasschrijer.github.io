@@ -15,10 +15,12 @@ $break-medium: 680px;
 }
 
 body {
-	font-family: "adelle-sans", Helvetica, Arial, sans-serif;
-	font-size: 30px;
-	line-height: 1.55em;
-	color: #472896;
+	font-family: "commuters-sans", Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.3em;
+	letter-spacing: -.02em;
+	color: black;
 	background-color: #FFF;
 	@media all and (max-width: $break-large) {
 		font-size: 22px;
@@ -27,39 +29,28 @@ body {
 
 .wrapper {
 	z-index: 99;
-	margin: 10% 40% 10% 10%;
+	margin: 3% 40% 3% 3%;
 	@media all and (max-width: $break-large) {
 		margin: 10% 8%;
 	}
 }
 a {
-	color: #472896;
-	opacity: .8;
+	color: blue;
 	text-decoration: none;
 	&:hover {
-		color: #FF0049;
+		color: red;
 		text-decoration: none;
 	}
 	&:active {
-		color: pink;
+		color: purple;
 	}
 }
 p {
-	margin-bottom: 30px;
+	margin-bottom: 5%;	
+	i {
+		text-decoration: italic;
+	}
 }
 ul {
-	margin-bottom: 20px;
-}
-img.no-ergonimics {
-	z-index: 1;
-	position: fixed;
-	bottom: 10%;
-	right: 5%;
-	width: 300px;
-	@media all and (max-width: $break-large) {
-		width: 40%;
-		top: 40px;
-		left: 8%;
-		position: relative;
-	}
+	margin-bottom: 5%;
 }
