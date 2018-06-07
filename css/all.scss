@@ -19,38 +19,23 @@ body {
 	font-size: 30px;
 	line-height: 1.55em;
 	color: #472896;
-	background-color: #FCE2BD;
+	background-color: #FFF;
 	@media all and (max-width: $break-large) {
 		font-size: 22px;
 	}
 }
-.intro {
-	font-family: "gastromond", georgia, serif;
-	height: 280px;
-	margin: 10% 30% 10% 10%;
-		@media all and (max-width: $break-large) {
-		height: 150px;
-		margin: 20% 8% 10%;
-	}
-}
-#typed {
-	font-size: 92px;
-	line-height: 1.1em;
-	@media all and (max-width: $break-large) {
-		font-size: 40px;
-	}
-}
+
 .wrapper {
 	z-index: 99;
-	margin: 0 40% 10% 10%;
+	margin: 10% 40% 10% 10%;
 	@media all and (max-width: $break-large) {
 		margin: 10% 8%;
 	}
 }
 a {
 	color: #472896;
-	opacity: 1;
-	text-decoration: underline;
+	opacity: .8;
+	text-decoration: none;
 	&:hover {
 		color: #FF0049;
 		text-decoration: none;
