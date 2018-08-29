@@ -21,7 +21,8 @@ body {
 	line-height: 1.3em;
 	letter-spacing: -.02em;
 	color: black;
-	background-color: #FFF;
+	background-color: #5C54E8;
+	color: #CEFDCC;
 	@media all and (max-width: $break-large) {
 		font-size: 22px;
 	}
@@ -35,10 +36,10 @@ body {
 	}
 }
 a {
-	color: blue;
+	color: white;
 	text-decoration: none;
 	&:hover {
-		color: red;
+		color: #EF0ED5;
 		text-decoration: none;
 	}
 	&:active {

@@ -467,7 +467,8 @@ body {
   line-height: 1.3em;
   letter-spacing: -0.02em;
   color: black;
-  background-color: #FFF;
+  background-color: #5C54E8;
+  color: #CEFDCC;
 }
 @media all and (max-width: 1000px) {
   body {
@@ -486,11 +487,11 @@ body {
 }
 
 a {
-  color: blue;
+  color: white;
   text-decoration: none;
 }
 a:hover {
-  color: red;
+  color: #EF0ED5;
   text-decoration: none;
 }
 a:active {
