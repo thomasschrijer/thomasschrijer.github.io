@@ -476,6 +476,21 @@ body {
   }
 }
 
+.danny {
+  z-index: -1;
+  width: 33%;
+  height: auto;
+  position: fixed;
+  right: 3%;
+}
+@media all and (max-width: 1000px) {
+  .danny {
+    width: 100%;
+    position: static;
+    margin: 20px auto;
+  }
+}
+
 .wrapper {
   z-index: 99;
   margin: 3% 40% 3% 3%;
@@ -491,7 +506,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #EF0ED5;
+  color: #F4A23C;
   text-decoration: none;
 }
 a:active {
