@@ -449,24 +449,24 @@ table {
 }
 
 ::selection {
-  background: #1CCBD7;
+  background: mediumblue;
   /* WebKit/Blink Browsers */
   color: white;
 }
 
 ::-moz-selection {
-  background: #1CCBD7;
+  background: mediumblue;
   /* Gecko Browsers */
   color: white;
 }
 
 body {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 1.5em;
-  color: #111;
-  background-color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  color: mediumblue;
+  background-color: lightpurple;
 }
 @media all and (max-width: 1000px) {
   body {
@@ -474,27 +474,22 @@ body {
   }
 }
 
-.lookatme {
+nav {
+  font-size: 2rem;
+  text-align: center;
   position: fixed;
-  float: left;
-  bottom: 0;
   width: 100%;
-  padding: 1% 2.5%;
-  background-color: #000;
 }
-.lookatme p {
-  color: #fff;
-  margin: 0;
-}
-.lookatme a {
-  color: #fff;
+nav .active {
   text-decoration: underline;
+}
+nav li {
+  border-bottom: 0px;
 }
 
 .wrapper {
   z-index: 99;
-  margin: 2.5%;
-  margin-bottom: 5%;
+  margin: 9%;
 }
 @media all and (max-width: 1000px) {
   .wrapper {
@@ -503,8 +498,8 @@ body {
 }
 
 .left {
-  width: 46%;
-  margin-right: 4%;
+  width: 44%;
+  margin-right: 8%;
   display: inline-block;
   float: left;
 }
@@ -515,7 +510,7 @@ body {
 }
 
 .right {
-  width: 50%;
+  width: 48%;
   display: inline-block;
 }
 @media all and (max-width: 1000px) {
@@ -524,8 +519,24 @@ body {
   }
 }
 
-h1, h2, h3 {
+h1 {
+  font-size: 3em;
+  line-height: 1.2em;
+  margin-bottom: 10%;
+}
+@media all and (max-width: 1000px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+h2 {
   font-weight: 700;
+  margin-bottom: 2%;
+}
+
+h3 {
+  font-size: 3rem;
 }
 
 h2, h3 {
@@ -535,19 +546,11 @@ h2 i, h3 i {
   font-style: italic;
 }
 
-h3 {
-  color: #3B1FE3;
-  text-transform: uppercase;
-  font-size: 0.7em;
-  letter-spacing: 0.1em;
-}
-
 a {
-  color: #3B1FE3;
-  text-decoration: none;
+  color: mediumblue;
 }
 a:hover {
-  color: #ff00dd;
+  color: black;
   text-decoration: none;
 }
 a:active {
@@ -557,9 +560,6 @@ a:active {
 p {
   margin-bottom: 3%;
   margin-right: 2%;
-}
-p .available {
-  text-decoration: underline;
 }
 p i {
   font-style: italic;
@@ -571,13 +571,15 @@ ul {
 ul li {
   width: 100%;
   padding: 8px 0;
-  border-bottom: 1px #3B1FE3 solid;
-  color: #3B1FE3;
+  border-bottom: 1px mediumblue solid;
+}
+ul li a {
+  text-decoration: none;
 }
 ul li small {
+  float: right;
   margin-left: 5px;
   font-size: 0.8em;
-  color: #1CCBD7;
   font-style: italic;
 }
 
