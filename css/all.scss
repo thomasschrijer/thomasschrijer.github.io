@@ -24,7 +24,7 @@ body {
 	color: $color-highlight;
 	background-color: lightpurple;
 	@media all and (max-width: $break-large) {
-		font-size: 19px;
+		font-size: 16px;
 	}
 }
 nav {
@@ -109,11 +109,18 @@ ul {
 		a {
 			text-decoration: none;
 		}
+		@media all and (max-width: 1000px) {
+    			float: left;
+  		}
 		small {
 			float: right;
 			margin-left: 5px;
 			font-size: .8em;
 			font-style: italic;
+			@media all and (max-width: 1000px) {
+    			display: block;
+    			width: 100%;
+  			}
 		}
 	}
 }

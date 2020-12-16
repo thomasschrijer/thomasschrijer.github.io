@@ -470,7 +470,7 @@ body {
 }
 @media all and (max-width: 1000px) {
   body {
-    font-size: 19px;
+    font-size: 16px;
   }
 }
 
@@ -576,11 +576,22 @@ ul li {
 ul li a {
   text-decoration: none;
 }
+@media all and (max-width: 1000px) {
+  ul li {
+    float: left;
+  }
+}
 ul li small {
   float: right;
   margin-left: 5px;
   font-size: 0.8em;
   font-style: italic;
+}
+@media all and (max-width: 1000px) {
+  ul li small {
+    display: block;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=all.css.map */
