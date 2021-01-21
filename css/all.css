@@ -528,12 +528,6 @@ h1 {
   letter-spacing: -0.01em;
   margin-bottom: 20px;
 }
-h1 span {
-  color: limegreen;
-}
-h1 span a {
-  color: limegreen;
-}
 @media all and (max-width: 1000px) {
   h1 {
     font-size: 2em;
