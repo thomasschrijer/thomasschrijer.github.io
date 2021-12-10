@@ -6,7 +6,7 @@ $break-large:  1000px;
 $break-medium: 680px;
 
 $color-highlight: #999;
-$color-hover: blue;
+$color-hover: white;
 
 ::selection {
   background: $color-highlight; /* WebKit/Blink Browsers */
@@ -93,8 +93,11 @@ a {
 		color: $color-hover;
 		text-decoration: none;
 	}
+	&:focus {
+		color: yellow;
+	}
 	&:active {
-		color: purple;
+		color: yellow;
 	}
 }
 p {

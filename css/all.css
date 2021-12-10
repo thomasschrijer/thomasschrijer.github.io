@@ -545,11 +545,14 @@ a {
   color: #999;
 }
 a:hover {
-  color: blue;
+  color: white;
   text-decoration: none;
 }
+a:focus {
+  color: yellow;
+}
 a:active {
-  color: purple;
+  color: yellow;
 }
 
 p {
