@@ -5,8 +5,8 @@
 $break-large:  1000px;
 $break-medium: 680px;
 
-$color-highlight: #999;
-$color-hover: white;
+$color-highlight: blue;
+$color-hover: darkblue;
 
 ::selection {
   background: $color-highlight; /* WebKit/Blink Browsers */
@@ -20,13 +20,13 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: 400;
 	line-height: 150%;
 	color: $color-highlight;
-	background-color: #282828;
+	background-color: #fff;
 	@media all and (max-width: $break-large) {
-		font-size: 15px;
+		font-size: 14px;
 	}
 }
 nav {
@@ -43,7 +43,7 @@ nav {
 }
 .wrapper {
 	z-index: 99;
-	margin: 1% 38% 12% 8%;
+	margin: 1% 42% 12% 8%;
 	@media all and (max-width: $break-large) {
 		margin: 5%;
 	}
@@ -65,9 +65,9 @@ nav {
   }
 }
 h1 {
-	font-size: 1.7em;
+	font-size: 1.8em;
 	font-weight: 900;
-	line-height: 1.2em;
+	line-height: 1.1em;
 	letter-spacing: -.01em;
 	margin-bottom: 20px;
 	span {
