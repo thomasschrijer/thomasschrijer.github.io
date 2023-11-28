@@ -451,13 +451,13 @@ table {
 ::selection {
   background: blue;
   /* WebKit/Blink Browsers */
-  color: white;
+  color: blue;
 }
 
 ::-moz-selection {
   background: blue;
   /* Gecko Browsers */
-  color: white;
+  color: blue;
 }
 
 body {
@@ -472,7 +472,7 @@ body {
 }
 @media all and (max-width: 1000px) {
   body {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
